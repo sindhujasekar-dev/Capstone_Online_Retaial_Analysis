@@ -94,4 +94,4 @@ low-engagement customers
 Based on the results will apply business insights to retain customers.
 
 #### Outline of project
-Phase - 1: 
+Phase - 1: https://github.com/sindhujasekar-dev/Capstone_Online_Retaial_Analysis/blob/main/Phase_1_Online_retail_EDA.ipynb
