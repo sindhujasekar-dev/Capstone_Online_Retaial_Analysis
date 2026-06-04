@@ -104,6 +104,10 @@ Phase - 1: https://github.com/sindhujasekar-dev/Capstone_Online_Retaial_Analysis
 
 **PHASE 2: Segmentation and Business Retention Stratergies**
 
+#### Data Sources
+What data will you use to answer you question?
+Dataset used: After EDA, clean Data used and included: cleaned_data.csv.zip 
+
 **Feature Engineering:**
 Built customer-level behavioral features including:
 
