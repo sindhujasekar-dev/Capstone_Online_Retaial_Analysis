@@ -196,6 +196,5 @@ AI-Powered Retention Campaign Generation Generative AI can be used to create per
 
 #### Outline of project
 
-Phase - 2: [https://github.com/sindhujasekar-dev/Capstone_Online_Retaial_Analysis/blob/main/Phase_2](https://github.com/sindhujasekar-dev/Capstone_Online_Retaial_Analysis/blob/main/Segmentation_Business_Stratergies.ipynb)
-
+Phase - 2: https://github.com/sindhujasekar-dev/Capstone_Online_Retaial_Analysis/blob/main/Final_Segmentation_Business_Stratergies.ipynb
 
