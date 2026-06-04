@@ -2,6 +2,7 @@
 
 **Sindhuja Sekar**
 
+**PHASE -1:**
 #### Executive summary
 This project analyzes customer transaction data from an online retail business to understand purchasing behavior, identify churn patterns, and generate business insights for customer retention. The analysis includes exploratory data analysis (EDA), data preprocessing, feature engineering, customer churn prediction, and customer segmentation techniques.
 
@@ -69,6 +70,9 @@ These features were used for churn analysis and machine learning modeling.
 Since the dataset did not contain a churn label, churn was defined based on customer inactivity:
 Customers with no purchases within the last 90 days were labeled as churned customers.
 
+5. Modeling
+   Used Logistic Regression to find chur prediction based on the condition, customers who was inactive more than 90 days.
+   Calculated F1 Score, Precison and recall value.
 
 #### Results
 What did your research find?
@@ -95,3 +99,96 @@ Based on the results will apply business insights to retain customers.
 
 #### Outline of project
 Phase - 1: https://github.com/sindhujasekar-dev/Capstone_Online_Retaial_Analysis/blob/main/Phase_1_Online_retail_EDA.ipynb
+
+==================================================================================
+
+**PHASE 2: Segmentation and Business Retention Stratergies**
+
+**Feature Engineering:**
+Built customer-level behavioral features including:
+
+Recency (days since last purchase)
+Frequency (distinct order count)
+Monetary value (total spend)
+Average order value
+Active lifespan
+Average items per order
+Average unit price
+
+**Unsupervised Clustering Exploration**
+
+Tested K-Means clustering on transformed and scaled features
+Applied winsorization, log transformation, and StandardScaler
+Evaluated cluster separation using elbow method, PCA visualization, and silhouette score
+
+**Finding:**
+
+K-Means produced a poor silhouette score (-0.028), indicating weak and overlapping clusters due to skewed customer behavior data; 
+Natural clusters were weak due to continuous behavioral gradients.
+
+**Decision:** 
+
+Hence, a rule-based RFM segmentation approach was adopted for better interpretability, stability, and business alignment.
+
+**RFM-Based Behavioral Segmentation**
+**Customers were scored on:**
+
+Recency
+Frequency
+Monetary value
+
+**Then assigned into actionable segments:**
+
+1. Champions
+
+2. Loyal
+
+3. Potential Loyalist
+
+4. Promising
+
+5. New Customers
+
+6. Need Attention
+
+7. About to Sleep
+
+8. At Risk
+
+9. Cannot Lose Them
+
+10. Hibernating
+
+Revenue Concentration Insight
+Champions (~18% of customers) drive ~65% of total revenue
+Loyal + Potential Loyalists represent high-growth opportunity segments
+
+**Revenue & Segment Analysis**
+
+Measured revenue contribution by segment
+Analyzed customer distribution across segments
+Identified high-value customer groups
+
+**Retention Strategy Design**
+
+Defined targeted actions per segment (e.g., loyalty rewards, win-back campaigns, onboarding flows)
+
+**Business Insights**
+
+Retaining high-value repeat customers yields greater long-term revenue impact than focusing solely on acquisition
+Early post-purchase onboarding is critical to reduce first-month churn
+Targeted win-back campaigns for At Risk customers can recover lost value
+Suppressing paid targeting for Hibernating customers reallocates budget to higher-return segments
+
+**Tech Stack**
+
+Python: Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib
+Methods: RFM segmentation, K-Means exploration, PCA, Simple Montly revenue based Sale Forecast, retention analysis
+
+**Key Takeaway**
+
+Long-term revenue growth is more efficiently achieved by retaining and expanding high-value repeat customers than by focusing solely on new customer acquisition.
+
+#### Outline of project
+
+Phase - 2: https://github.com/sindhujasekar-dev/Capstone_Online_Retaial_Analysis/blob/main/Phase_2
