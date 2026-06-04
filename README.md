@@ -189,6 +189,13 @@ Methods: RFM segmentation, K-Means exploration, PCA, Simple Montly revenue based
 
 Long-term revenue growth is more efficiently achieved by retaining and expanding high-value repeat customers than by focusing solely on new customer acquisition.
 
+**Future Enhancement: AI-Powered Retention Campaign Generation**
+
+AI-Powered Retention Campaign Generation Generative AI can be used to create personalized retention messages based on customer segment (e.g., Champions, At Risk) and churn probability, enabling automated, targeted marketing campaigns at scale.
+
+
 #### Outline of project
 
-Phase - 2: https://github.com/sindhujasekar-dev/Capstone_Online_Retaial_Analysis/blob/main/Phase_2
+Phase - 2: [https://github.com/sindhujasekar-dev/Capstone_Online_Retaial_Analysis/blob/main/Phase_2](https://github.com/sindhujasekar-dev/Capstone_Online_Retaial_Analysis/blob/main/Segmentation_Business_Stratergies.ipynb)
+
+
